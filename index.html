@@ -1,68 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
   <head>
+    <title>Amazon - Shop All Holiday</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="logo1">
-      <img src="./assets/logo.png" alt="Logo amazon" width="100px" />
-    </div>
-
-    <nav>
-      <ul>
-        <li>All</li>
-        <li>Today's deals</li>
-        <li>Customer Service</li>
-        <li>Registry</li>
-        <li>Gift Cards</li>
-        <li>Sell</li>
-      </ul>
-    </nav>
-
+    <header>
+      <nav>
+        <div class="logo-container">
+          <div class="container">
+            <img src="assets/logo.png" alt="Logo Amazon" />
+          </div>
+        </div>
+        <div class="menu-container">
+          <div class="container">
+            <ul>
+              <li><a href="#" title="All">All</a></li>
+              <li><a href="#" title="Today's deals">Today's deals</a></li>
+              <li><a href="#" title="Customer Service">Customer Service</a></li>
+              <li><a href="#" title="Registry">Registry</a></li>
+              <li><a href="#" title="Gift Card">Gift Card</a></li>
+              <li><a href="#" title="Sell">Sell</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
-      <div>
+      <div class="container promo">
         <p>Shop All Holiday Gift Cards</p>
       </div>
-
-      <div>
-        <h1>Holiday Gift Guides</h1>
-        <p>Be a go-gifter</p>
-      </div>
-
-      <div class="maindiv">
-        <p class="blackp">Find the perfect gift</p>
-        <p><a href="#" class="link">Shop now</a></p>
-        <img src="./assets/img_1.jpg" alt="e-reader" class="picInline" />
-        <img src="./assets/img_2.jpg" alt="computer" class="picInline" />
-        <img src="./assets/img_3.jpg" alt="smartwatch" class="picInline" />
-        <img src="./assets/img_4.jpg" alt="pets" class="picInline" />
-      </div>
-
-      <div class="maindiv">
-        <img src="./assets/img_9.png" alt="VR game devices" />
-        <p class="blackp">Play the gifting game</p>
-        <p><a href="#" class="link">Shop gaming</a></p>
-      </div>
-
-      <div class="maindiv">
-        <img src="./assets/img_10.png" alt="Audio accessories" />
-        <p class="blackp">The sound of cheer</p>
-        <p><a href="#" class="link">Shop audio & Accessories</a></p>
-      </div>
+      <section class="hero">
+        <div class="container">
+          <div class="caption">
+            <h1>Holiday Gift Guides</h1>
+            <h3>Be a go glitter</h3>
+          </div>
+        </div>
+      </section>
+      <section class="product">
+        <div class="container">
+          <div class="title">
+            <h2>Find the perfect gift</h2>
+            <a href="#">Shop now</a>
+          </div>
+        </div>
+        <div class="container">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      </section>
+      <section class="cta_1">
+        <div class="container">
+          <img src="assets/img_9.png" alt="Play the gifting games" />
+          <div class="title">
+            <h2>Play the gifting games</h2>
+            <a href="#" title="Shop gaming">Shop gaming</a>
+          </div>
+        </div>
+      </section>
+      <section class="cta_2">
+        <div class="container">
+          <img src="assets/img_10.png" alt="The sound of cheer" />
+          <div class="title">
+            <h2>The sound of cheer</h2>
+            <a href="#" title="Shop Audio &amp; Accesories"
+              >Shop Audio &amp; Accesories</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
-
-    <div id="linktotop">
-      <p><a href="#">Back to top</a></p>
-    </div>
-
     <footer>
-      <img src="./assets/logo.png" alt="Logo Amazon" />
+      <div class="pre_footer">
+        <a href="#" title="Back to top">Back to top</a>
+      </div>
+      <div class="container">
+        <img src="assets/logo.png" alt="Logo Amazon" />
+      </div>
     </footer>
-
-    <script src="D5.js"></script>
   </body>
 </html>
